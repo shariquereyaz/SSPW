@@ -371,7 +371,7 @@
                     <form>
                         <input type="text" class="form-control" placeholder="Your Name" required >
                         <input type="email" class="form-control" placeholder="Your Email" required>
-                        <input type="number" class="form-control" placeholder="Your Phone"  maxlength="10"   required>
+                        <input type="text"   onkeypress="return isNumberKey(event)"  maxlength="10" class="form-control" placeholder="Your Phone"     required>
                         <textarea class="form-control" placeholder="Your Message"></textarea>
                         <button type="submit">Send</button>
                     </form>
@@ -397,6 +397,14 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        function isNumberKey(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+            return true;
+        }
+    </script>
 
 </body>
 </html>
