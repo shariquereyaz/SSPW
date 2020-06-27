@@ -12,6 +12,24 @@
 </head>
 
 <body>
+    <style>
+        #div-wa {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            z-index: 2;
+        }
+
+        #div-call {
+            position: fixed;
+            bottom: 15px;
+            left: 15px;
+            z-index: 2;
+        }
+    </style>
+    <div id="div-wa"><a href="https://wa.me/8521294265?text=Hey! I want to know about your services."><img src="assets/img/wa.png"></a></div>
+    <div id="div-call"><a href="tel:8521294265"><img src="assets/img/call.png"></a></div>
+
     <nav class="navbar navbar-expand-md  fixed-top maine-menu">
         <div class="container">
             <button class="navbar-toggler ml-auto" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"> <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span> </button>
@@ -19,7 +37,7 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="#about" tabindex="-1" aria-disabled="true">About</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#activity" tabindex="-1" aria-disabled="true">Activity</a></li>
+                    <!--<li class="nav-item"> <a class="nav-link" href="#activity" tabindex="-1" aria-disabled="true">Activity</a></li>-->
                     <li class="nav-item"> <a class="nav-link" href="#portfolio" tabindex="-1" aria-disabled="true">Portfolio</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#testimonial" tabindex="-1" aria-disabled="true">Testimonial</a></li>
 
@@ -37,7 +55,7 @@
                         A camera is the save button
                         for the mind’s eye
                     </h2>
-                    <a href="#activity" class="btn">
+                    <a href="#portfolio" class="btn">
                         <svg width="201" height="51" viewBox="0 0 201 51">
                             <defs>
                                 <style>
@@ -97,17 +115,34 @@
                 </div>
             </div>
         </div>
-        <div class="container recent" id="activity">
+
+
+
+
+        <div class="container recent" id="portfolio">
             <div class="row">
-                <h2>Recent works</h2>
-                <div class="owl-carousel owl-carousel2 owl-theme">
+                <h2>Portfolio</h2>
+
+
+                <div id="cp_widget_4e7151d3-e1bf-4d67-be47-8851a02d7062">...</div>
+                <script type="text/javascript">
+                    var cpo = []; cpo["_object"] = "cp_widget_4e7151d3-e1bf-4d67-be47-8851a02d7062"; cpo["_fid"] = "AALARu-LGYlv";
+                    var _cpmp = _cpmp || []; _cpmp.push(cpo);
+                    (function () {
+                        var cp = document.createElement("script"); cp.type = "text/javascript";
+                        cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+                        var c = document.getElementsByTagName("script")[0];
+                        c.parentNode.insertBefore(cp, c);
+                    })();</script>
+
+                <!--<div class="owl-carousel owl-carousel2 owl-theme">
                     <div>
                         <div class="card">
                             <img class="card-img" src="assets/img/indiagate.jpg" alt="">
                             <div class="card-img-overlay">
-                                <!--<a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>-->
+                                <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
                                 <div class="bottom-text">
-                                    <!--<h5 class="card-title">Model photography</h5>-->
+                                    <h5 class="card-title">Model photography</h5>
                                     <p class="card-text">Monument</p>
                                 </div>
                             </div>
@@ -117,9 +152,9 @@
                         <div class="card">
                             <img class="card-img" src="assets/img/khagramelakishanganj.jpg" alt="">
                             <div class="card-img-overlay">
-                                <!--<a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>-->
+                                <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
                                 <div class="bottom-text">
-                                    <!--<h5 class="card-title">Product photography</h5>-->
+                                    <h5 class="card-title">Product photography</h5>
                                     <p class="card-text">Night Life</p>
                                 </div>
                             </div>
@@ -129,9 +164,9 @@
                         <div class="card">
                             <img class="card-img" src="assets/img/flag.jpg" alt="">
                             <div class="card-img-overlay">
-                                <!--<a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>-->
+                                <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
                                 <div class="bottom-text">
-                                    <!--<h5 class="card-title">Tour and potrait</h5>-->
+                                    <h5 class="card-title">Tour and potrait</h5>
                                     <p class="card-text">Digital, Photography</p>
                                 </div>
                             </div>
@@ -141,15 +176,18 @@
                         <div class="card">
                             <img class="card-img" src="assets/img/tree.jpg" alt="">
                             <div class="card-img-overlay">
-                                <!--<a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>-->
+                                <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
                                 <div class="bottom-text">
-                                    <!--<h5 class="card-title">Classical photography</h5>-->
+                                    <h5 class="card-title">Classical photography</h5>
                                     <p class="card-text">Lively</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
+
+
+
             </div>
         </div>
     </div>
@@ -237,108 +275,123 @@
         </div>
       </div>
     </div>-->
-
-    <div class="container-fluid fh5co-recent-work activity" id="portfolio">
+    <!--<div class="container-fluid fh5co-recent-work activity" id="portfolio">
       <div class="container recent">
-        <div class="row">
-          <h2>My Portfolio</h2>
-          <div class="owl-carousel owl-carousel3 owl-theme">
-              <div>
-                  <div class="card">
-                      <img class="card-img" src="assets/img/khagramelakishanganj.jpg" alt="">
-                      <div class="card-img-overlay">
-                          <div class="bottom-text">
-                              <h5 class="card-title">P1</h5>
-                              <!--<a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>-->
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card">
-                      <img class="card-img" src="assets/img/yellowsunflower.jpg" alt="">
-                      <div class="card-img-overlay">
-                          <div class="bottom-text">
-                              <h5 class="card-title">P2</h5>
-                              <!--<a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>-->
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card">
-                      <img class="card-img" src="assets/img/sunset.jpg" alt="">
-                      <div class="card-img-overlay">
-                          <div class="bottom-text">
-                              <h5 class="card-title">P3</h5>
-                              <!--<a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>-->
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card">
-                      <img class="card-img" src="assets/img/tree.jpg" alt="">
-                      <div class="card-img-overlay">
-                          <div class="bottom-text">
-                              <h5 class="card-title">P4</h5>
-                              <!--<a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>-->
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card">
-                      <img class="card-img" src="assets/img/pan1.jpg" alt="">
-                      <div class="card-img-overlay">
-                          <div class="bottom-text">
-                              <h5 class="card-title">P5</h5>
-                              <!--<a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>-->
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card">
-                      <img class="card-img" src="assets/img/indiagate.jpg" alt="">
-                      <div class="card-img-overlay">
-                          <div class="bottom-text">
-                              <h5 class="card-title">P6</h5>
-                              <!--<a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>-->
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card">
-                      <img class="card-img" src="assets/img/whitesunflower.jpg" alt="">
-                      <div class="card-img-overlay">
-                          <div class="bottom-text">
-                              <h5 class="card-title">P7</h5>
-                              <!--<a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>-->
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card">
-                      <img class="card-img" src="assets/img/solareclipse.jpeg" alt="">
-                      <div class="card-img-overlay">
-                          <div class="bottom-text">
-                              <h5 class="card-title">P8</h5>
-                              <!--<a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>-->
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
+          <div class="row">
+              <h2>My Portfolio</h2>
 
-    
-   
+              <div id="cp_widget_4e7151d3-e1bf-4d67-be47-8851a02d7062">...</div>
+              <script type="text/javascript">
+                  var cpo = []; cpo["_object"] = "cp_widget_4e7151d3-e1bf-4d67-be47-8851a02d7062"; cpo["_fid"] = "AALARu-LGYlv";
+                  var _cpmp = _cpmp || []; _cpmp.push(cpo);
+                  (function () {
+                      var cp = document.createElement("script"); cp.type = "text/javascript";
+                      cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+                      var c = document.getElementsByTagName("script")[0];
+                      c.parentNode.insertBefore(cp, c);
+                  })();</script>
+
+
+              <div class="owl-carousel owl-carousel3 owl-theme">
+        <div>
+            <div class="card">
+                <img class="card-img" src="assets/img/khagramelakishanganj.jpg" alt="">
+                <div class="card-img-overlay">
+                    <div class="bottom-text">
+                        <h5 class="card-title">P1</h5>
+                        <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img class="card-img" src="assets/img/yellowsunflower.jpg" alt="">
+                <div class="card-img-overlay">
+                    <div class="bottom-text">
+                        <h5 class="card-title">P2</h5>
+                        <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img class="card-img" src="assets/img/sunset.jpg" alt="">
+                <div class="card-img-overlay">
+                    <div class="bottom-text">
+                        <h5 class="card-title">P3</h5>
+                        <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img class="card-img" src="assets/img/tree.jpg" alt="">
+                <div class="card-img-overlay">
+                    <div class="bottom-text">
+                        <h5 class="card-title">P4</h5>
+                        <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img class="card-img" src="assets/img/pan1.jpg" alt="">
+                <div class="card-img-overlay">
+                    <div class="bottom-text">
+                        <h5 class="card-title">P5</h5>
+                        <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img class="card-img" src="assets/img/indiagate.jpg" alt="">
+                <div class="card-img-overlay">
+                    <div class="bottom-text">
+                        <h5 class="card-title">P6</h5>
+                        <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img class="card-img" src="assets/img/whitesunflower.jpg" alt="">
+                <div class="card-img-overlay">
+                    <div class="bottom-text">
+                        <h5 class="card-title">P7</h5>
+                        <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img class="card-img" src="assets/img/solareclipse.jpeg" alt="">
+                <div class="card-img-overlay">
+                    <div class="bottom-text">
+                        <h5 class="card-title">P8</h5>
+                        <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+          </div>
+      </div>
+    </div>-->
+
+
+
+
 
 
     <div class="container-fluid fh5co-about-me" id="testimonial">
@@ -410,9 +463,10 @@
             <h2 class="text-center d-block">Find me on social media</h2>
             <div class="row social-links">
                 <ul class="nav mx-auto">
-                    <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/" target="_blank"><img src="assets/img/facebook.png" alt=""></a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="https://www.twitter.com/" target="_blank"><img src="assets/img/twitter.png" alt=""></a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="https://in.pinterest.com/" target="_blank"><img src="assets/img/pinterest.png" alt=""></a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/the.shaida/" target="_blank"><img src="assets/img/facebook.png" alt=""></a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="https://www.instagram.com/the_shaida/" target="_blank"><img src="assets/img/insta.png" alt=""></a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="https://www.instagram.com/the_vivaciously_mundane/" target="_blank"><img src="assets/img/insta.png" alt=""></a> </li>
+                    <!--<li class="nav-item"> <a class="nav-link" href="https://in.pinterest.com/" target="_blank"><img src="assets/img/pinterest.png" alt=""></a> </li>-->
 
                 </ul>
             </div>
@@ -428,9 +482,9 @@
                 <div class="contact-form" id="contact">
                     <h3 class="text-uppercase">Contact me</h3>
                     <form>
-                        <input type="text" class="form-control" placeholder="Your Name" required >
+                        <input type="text" class="form-control" placeholder="Your Name" required>
                         <input type="email" class="form-control" placeholder="Your Email" required>
-                        <input type="text"   onkeypress="return isNumberKey(event)"  maxlength="10" class="form-control" placeholder="Your Phone"     required>
+                        <input type="text" onkeypress="return isNumberKey(event)" maxlength="10" class="form-control" placeholder="Your Phone" required>
                         <textarea class="form-control" placeholder="Your Message"></textarea>
                         <button type="submit">Send</button>
                     </form>
