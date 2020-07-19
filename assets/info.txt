@@ -1,0 +1,8 @@
+b.Portraits================
+<div id="cp_widget_e0bd1449-455d-470c-ae84-16ba874809cd">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_e0bd1449-455d-470c-ae84-16ba874809cd"; cpo["_fid"] = "AgMAdtuqp0oB";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script>
