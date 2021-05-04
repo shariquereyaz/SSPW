@@ -386,7 +386,8 @@ h2 {
   width: 100%; }
 
 .fh5co-recent-work {
-  background: #e90e65;
+  /* background: #e90e65; */
+  background: #000;
   padding: 100px 0; }
   @media (max-width: 767px) {
     .fh5co-recent-work {
@@ -569,7 +570,8 @@ h2 {
 .fh5co-about-me {
   padding: 0; }
   .fh5co-about-me .card-img-overlay {
-    background-color: rgba(233, 14, 101, 0.902); }
+    /* background-color: rgba(233, 14, 101, 0.902); } */
+    background-color: rgba(24, 22, 23, 0.902); }
   .fh5co-about-me h2 {
     text-align: center;
     color: #fff;
